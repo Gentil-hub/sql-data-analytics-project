@@ -3,6 +3,9 @@
 ## Overview
 Exploratory SQL project analyzing sales, customers, and products using fact and dimension tables to generate insights and support data-driven decision-making.
 
+## Objective
+Analyze sales, customer, and product data using SQL to identify trends, evaluate business performance, and generate insights that support data-driven decision-making.
+
 ## Description
 Applied SQL techniques including joins, aggregations, subqueries, window functions, and CTEs to analyze business data and uncover trends. Built queries for performance analysis, customer segmentation, and time-series insights such as running totals and year-over-year comparisons. Extended the base project with additional queries and improvements to strengthen analytical depth and practical understanding.
 
