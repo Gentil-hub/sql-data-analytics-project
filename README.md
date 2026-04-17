@@ -1,8 +1,5 @@
 # SQL Data Analysis Project
 
-## Overview
-Exploratory SQL project analyzing sales, customers, and products using fact and dimension tables to generate insights and support data-driven decision-making.
-
 ## Objective
 Analyze sales, customer, and product data using SQL to identify trends, evaluate business performance, and generate insights that support data-driven decision-making.
 
