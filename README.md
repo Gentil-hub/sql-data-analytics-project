@@ -12,7 +12,7 @@ The project follows a structured data analysis approach:
 1. Database Exploration – Understanding schema and data structure  
 2. Dimension Analysis – Exploring categorical data  
 3. Date Analysis – Identifying time-based patterns  
-4. Measures Analysis – Calculating core business KPIs to evaluate overall business performance
+4. Measures Analysis – Calculating core business KPIs (e.g., sales, orders, and customer metrics) to evaluate overall business performance  
 5. Magnitude & Ranking Analysis – Identifying top and bottom performers  
 6. Change Over Time Analysis – Tracking trends and growth  
 7. Cumulative Analysis – Running totals and long-term performance  
@@ -21,20 +21,30 @@ The project follows a structured data analysis approach:
 10. Customer Segmentation – Grouping customers based on behavior  
 11. Reporting – Building customer and product-level reports  
 
-## Description
-Applied SQL techniques including joins, aggregations, subqueries, window functions, and CTEs to analyze business data and uncover trends. Built queries for performance analysis, customer segmentation, and time-series insights such as running totals and year-over-year comparisons. Extended the base project with additional queries and improvements to strengthen analytical depth and practical understanding.
+## Key Insights
+- A small segment of customers (VIP) contributes a significant portion of total revenue  
+- Sales trends show consistent growth over time with identifiable patterns  
+- Top-performing products drive the majority of overall sales  
+- Customer purchasing behavior varies across different segments  
+- Time-based analysis highlights changes in performance across periods  
+
+## Technical Highlights
+- Used window functions for running totals and trend analysis  
+- Performed year-over-year analysis using LAG()  
+- Applied CTEs to structure complex queries  
+- Built customer segmentation logic using CASE statements  
+- Created reusable reporting views for customer and product analysis  
 
 ## Skills
-- SQL (Joins, Aggregations, Subqueries, Window Functions, CTEs)
-- Data Analysis & EDA
-- Data Modeling (Fact & Dimension Tables)
-- Business Intelligence & Reporting
+- SQL (Joins, Aggregations, Subqueries, Window Functions, CTEs)  
+- Data Analysis & Exploratory Data Analysis (EDA)  
+- Data Modeling (Fact & Dimension Tables)  
+- Business Intelligence & Reporting  
 
-## Key Highlights
-- Analyzed sales performance and product trends
-- Segmented customers into business categories (e.g., VIP, Regular, New)
-- Built time-series analyses (running totals, monthly trends, YoY growth)
-- Developed reusable SQL queries for reporting and insights
+## Project Structure
+- `databases/` – Source databases containing fact and dimension tables  
+- `scripts/` – SQL scripts covering exploration, analysis, segmentation, and reporting  
+- `README.md` – Project documentation  
 
 ## Notes
-Based on concepts learned from Baraa Khatib Salkini, with additional modifications and extensions.
+This project is based on concepts learned from Baraa Khatib Salkini. Additional queries and modifications were implemented to extend the analysis and demonstrate practical data analytics skills.
