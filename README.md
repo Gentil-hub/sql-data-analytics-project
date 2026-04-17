@@ -12,7 +12,7 @@ The project follows a structured data analysis approach:
 1. Database Exploration – Understanding schema and data structure  
 2. Dimension Analysis – Exploring categorical data  
 3. Date Analysis – Identifying time-based patterns  
-4. Measures Analysis – Calculating core business KPIs (total sales, total orders, total quantity, average price, and customer metrics) to evaluate overall business performance
+4. Measures Analysis – Calculating core business KPIs to evaluate overall business performance
 5. Magnitude & Ranking Analysis – Identifying top and bottom performers  
 6. Change Over Time Analysis – Tracking trends and growth  
 7. Cumulative Analysis – Running totals and long-term performance  
