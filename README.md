@@ -42,7 +42,7 @@ The project follows a structured data analysis approach:
 - Business Intelligence & Reporting  
 
 ## Project Structure
-- `databases/` – Source databases containing fact and dimension tables  
+- `datasets/` – Source databases containing fact and dimension tables  
 - `scripts/` – SQL scripts covering exploration, analysis, segmentation, and reporting  
 - `README.md` – Project documentation  
 
