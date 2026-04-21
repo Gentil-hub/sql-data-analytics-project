@@ -1,47 +1,125 @@
-# SQL Data Analysis Project
+# 📊 SQL Sales Data Analysis Project
 
-## Objective
-Analyze sales, customer, and product data using SQL to identify trends, evaluate business performance, and generate insights that support data-driven decision-making.
+## 📌 Business Scenario
+This project simulates a real-world scenario where a data analyst works for a retail company. The goal is to analyze sales, customer behavior, and product performance using SQL to support better business decisions.
 
-## Analysis Workflow
-The project follows a structured data analysis approach:
+---
 
-1. Database Exploration – Understanding schema and data structure  
-2. Dimension Analysis – Exploring categorical data  
-3. Date Analysis – Identifying time-based patterns  
-4. Measures Analysis – Calculating core business KPIs (e.g., sales, orders, and customer metrics) to evaluate overall business performance  
-5. Magnitude & Ranking Analysis – Identifying top and bottom performers  
-6. Change Over Time Analysis – Tracking trends and growth  
-7. Cumulative Analysis – Running totals and long-term performance  
-8. Performance Analysis – Evaluating business performance over time  
-9. Part-to-Whole Analysis – Understanding contribution by category  
-10. Customer Segmentation – Grouping customers based on behavior  
-11. Reporting – Building customer and product-level reports  
+## 🎯 Objective
+The main goal of this project is to explore and analyze sales data in order to:
+• understand overall business performance  
+• identify key revenue drivers  
+• analyze customer behavior  
+• evaluate product performance  
 
-## Key Insights
-- A small segment of customers (VIP) contributes a significant portion of total revenue  
-- Sales trends show consistent growth over time with identifiable patterns  
-- Top-performing products drive the majority of overall sales  
-- Customer purchasing behavior varies across different segments  
-- Time-based analysis highlights changes in performance across periods  
+---
 
-## Technical Highlights
-- Used window functions for running totals and trend analysis  
-- Performed year-over-year analysis using LAG()  
-- Applied CTEs to structure complex queries  
-- Built customer segmentation logic using CASE statements  
-- Created reusable reporting views for customer and product analysis  
+## ❓ Key Business Questions
 
-## Skills
-- SQL (Joins, Aggregations, Subqueries, Window Functions, CTEs)  
-- Data Analysis & Exploratory Data Analysis (EDA)  
-- Data Modeling (Fact & Dimension Tables)  
-- Business Intelligence & Reporting  
+Some of the key questions explored in this project include:
 
-## Project Structure
-- `datasets/` – Source databases containing fact and dimension tables  
-- `scripts/` – SQL scripts covering exploration, analysis, segmentation, and reporting  
-- `README.md` – Project documentation  
+• Who are the most valuable customers?  
+• Which products generate the most and least revenue?  
+• How are sales changing over time?  
+• Which product categories contribute the most to total sales?  
+• How do customers behave across different segments?  
+• Are products improving or declining over time?  
 
-## Notes
-This project is based on concepts learned from Baraa Khatib Salkini. Additional queries and modifications were implemented to extend the analysis and demonstrate practical data analytics skills.
+---
+
+## 🔍 Analysis Workflow
+
+The project follows a structured approach:
+
+Database exploration  
+Understanding tables, schema, and available data  
+
+Dimension analysis  
+Looking at countries, categories, and products  
+
+Date analysis  
+Exploring time range and customer age  
+
+Measures (KPIs)  
+Calculating total sales, orders, customers, and average price  
+
+Magnitude and ranking  
+Identifying top and bottom performers  
+
+Time-based analysis  
+Tracking trends over months and years  
+
+Cumulative analysis  
+Measuring growth using running totals  
+
+Performance analysis  
+Comparing results year over year  
+
+Part-to-whole analysis  
+Understanding category contribution to total sales  
+
+Customer segmentation  
+Grouping customers into VIP, Regular, and New  
+
+Reporting  
+Creating reusable views for customers and products  
+
+---
+
+## 📈 Key Insights
+
+• A small group of VIP customers contributes a large share of total revenue  
+• A few top products generate most of the sales (Pareto effect)  
+• Sales generally increase over time, with some noticeable patterns  
+• Customer behavior differs across segments, which can be useful for targeting  
+• Some product categories clearly perform better than others  
+
+---
+
+## 💡 Recommendations
+
+• Focus on retaining and targeting high-value (VIP) customers  
+• Invest more in top-performing products and categories  
+• Review low-performing products for improvement or removal  
+• Use time trends to plan inventory and marketing campaigns  
+• Apply segmentation for more personalized marketing  
+
+---
+
+## 🛠️ Technical Highlights
+
+This project uses:
+
+• joins, aggregations, and subqueries  
+• window functions for running totals and trend analysis  
+• LAG() for year-over-year comparisons  
+• CASE statements for segmentation  
+• CTEs to organize complex queries  
+
+Two reporting views were created:
+• report_customers  
+• report_products  
+
+---
+
+## 🧠 Skills Demonstrated
+
+• SQL (intermediate to advanced)  
+• data analysis and exploratory analysis  
+• data modeling (fact and dimension tables)  
+• business-focused thinking  
+• reporting and insights generation  
+
+---
+
+## 📁 Project Structure
+
+datasets/ → raw data  
+scripts/ → SQL queries and analysis  
+README.md → project documentation  
+
+---
+
+## 📝 Notes
+
+This project applies SQL and data analysis concepts to a realistic business scenario, with additional analysis and enhancements to demonstrate practical problem-solving and analytical skills.
